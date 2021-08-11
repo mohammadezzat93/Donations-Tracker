@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(thumbnail.jpg);
+}
+header{
+    padding: 20px;
+    background-color: rgb(46, 8, 8);
+    color: white;
+    text-align: center;
+}
+table{
+    border: solid  2px;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(32, 29, 29);
+color: white;
+}
+td{
+    background-color: rgb(82, 59, 59);
+
+    color: white;
+}
+fieldset{
+    background-color:  blueviolet;
+}
+
+#section1{
+float: left;
+width: 25%;
+background-color: blueviolet;
+}
+#section2{
+    float: right;
+    width: 75%;
+    background-color: blueviolet;
+}
+input{
+    width: 200px;
+}
+#amount{
+    width: 200px;
+}
+label{
+    margin-left: 40px;
+}
